@@ -1,0 +1,3 @@
+CRM Ticket No.,Return Item Article ID,Quantity,Return Item Serial Number 1,Customer Name,Customer Contact Number,PIN Code,City,Type of Return,Issue Reported by Customer,Return Processing Location,Branch,Tag ID,Manufacturing Date,Batch,Vendor,Validation Status,Service Partner,Service Executive,Inspection Service Request Number,Customer Resolution Decision,Approval Date,Item Decision
+CRM9000,490232465,1,SN9000,Blubirch0,8050455805,560011,Bangalore,Dealer,Not working,WS02,Mumbai,TAG9000,2023-01-00,BATCH900,Vendor0,In Policy,Dava,Madhu,INSR9000,Refund,2025-08-10,Refund
+CRM9001,490232465,1,SN9001,Blubirch1,8050455805,560011,Bangalore,Dealer,Not working,WS02,Mumbai,TAG9001,2023-01-01,BATCH901,Vendor1,In Policy,Dava,Madhu,INSR9001,Refund,2025-08-11,Refund
