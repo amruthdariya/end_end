@@ -1,0 +1,18 @@
+API Response: {
+  otp_verifications: [
+    {
+      id: 2180,
+      is_active: true,
+      verifier_type: 'return_creation',
+      contact_number: '8050455805',
+      details: [Object],
+      created_at: '2025-09-29T06:33:10.105Z',
+      updated_at: '2025-09-29T06:33:10.215Z',
+      email: null,
+      is_email: false
+    }
+  ]
+}
+Captured OTP: 4526
+Sub Request ID(s) rs-c12eb6 successfully created.
+---

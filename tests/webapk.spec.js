@@ -1,4 +1,9 @@
 import { test, expect } from '@playwright/test';
+const path = require('path');
+const fs = require('fs');
+const pwd = process.cwd();
+// const filePath = path.resolve(pwd, 'tests/images/one.jpg');
+// console.log('File path:', filePath);
 
 test('test', async ({ page }) => {
           test.setTimeout(60000);
@@ -10,14 +15,14 @@ test('test', async ({ page }) => {
   await page.getByRole('textbox', { name: 'Password' }).fill('blubirch@123');
   await page.getByRole('button', { name: 'Sign In' }).click();
   await page.getByText('Inspection Ticket').click();
-  await page.getByText('SR-345061').click();
+  await page.getByText('SR-843355').click();
   await page.getByRole('button', { name: 'Proceed' }).click();
   await page.locator('app-activity-action app-header svg').click();
   await page.getByRole('button', { name: 'Proceed' }).click();
   await page.getByRole('textbox', { name: 'Scan Article ID*' }).click();
   await page.getByRole('textbox', { name: 'Scan Article ID*' }).fill('493666338');
   await page.locator('ion-col:nth-child(4) > app-a-input > .ng-untouched > .input-wrapper > .native-wrapper').click();
-  await page.getByRole('textbox', { name: 'Scan Serial Number*' }).fill('MN890061');
+  await page.getByRole('textbox', { name: 'Scan Serial Number*' }).fill('SRNB005');
   await page.getByRole('button', { name: 'Start Activity' }).click();
   await page.getByRole('button', { name: 'Yes' }).click();
   await page.getByRole('button', { name: 'Next' }).click();
@@ -25,7 +30,17 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Next' }).click();
   await page.getByRole('button', { name: 'Like New' }).click();
   await page.locator('ion-content').filter({ hasText: 'Packaging Condition Packaging' }).getByRole('img').click();
-  await page.locator('body').setInputFiles('/home/blubirch/Pictures/Screenshots/Screenshot from 2025-09-11 23-08-10.png');
+  
+  console.log('File upload started==========');
+  const fileInput = page.locator('input[type="file"]');
+  console.log('File upload started++++++++++');
+  await page.locator('#_capacitor-camera-input').setInputFiles('/home/blubirch/Videos/Career/end-end/tests/images/one.jpg');
+  // await fileInput.setInputFiles('/home/blubirch/Pictures/Screenshots/Screenshot from 2025-09-11 23-08-10.png');
+
+  // await page.locator('body').setInputFiles('/home/blubirch/Pictures/Screenshots/Screenshot from 2025-09-11 23-08-10.png');
+  
+  
+  
   await page.getByRole('button', { name: 'Next' }).click();
   await page.getByRole('button', { name: 'Not Good' }).click();
   await page.locator('ion-content').filter({ hasText: 'Physical Condition Physical' }).getByRole('img').click();

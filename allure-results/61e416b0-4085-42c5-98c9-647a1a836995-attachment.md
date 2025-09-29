@@ -1,0 +1,296 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e6]:
+    - generic [ref=e8]:
+      - img [ref=e9]:
+        - img [ref=e11]
+      - generic [ref=e13]: service Request
+    - tablist [ref=e16]:
+      - generic:
+        - generic [ref=e17] [cursor=pointer]:
+          - tab "Service" [selected]:
+            - generic:
+              - generic:
+                - generic: Service
+        - generic [ref=e18] [cursor=pointer]:
+          - tab "Repair":
+            - generic:
+              - generic:
+                - generic: Repair
+        - generic [ref=e19] [cursor=pointer]:
+          - tab "Replacement":
+            - generic:
+              - generic:
+                - generic: Replacement
+  - main [ref=e22]:
+    - generic:
+      - generic [ref=e23]:
+        - generic:
+          - generic [ref=e27] [cursor=pointer]:
+            - generic [ref=e29] [cursor=pointer]:
+              - generic: Field
+            - generic:
+              - generic: Field
+            - generic [ref=e31] [cursor=pointer]:
+              - generic [ref=e32] [cursor=pointer]: Field
+              - button "Field, Field" [ref=e33]
+            - img [ref=e34] [cursor=pointer]:
+              - img [ref=e36] [cursor=pointer]
+          - generic [ref=e41]:
+            - generic [ref=e43]:
+              - generic: Request no/CRM Ticket no
+            - generic:
+              - generic: Request no/CRM Ticket no
+            - textbox "Request no/CRM Ticket no" [ref=e45]
+      - generic [ref=e46]:
+        - generic:
+          - generic [ref=e49]:
+            - generic:
+              - generic [ref=e50]:
+                - generic:
+                  - generic [ref=e51]: CRM Ticket Number
+                  - generic [ref=e52]: CRMT9025
+              - generic [ref=e53]:
+                - generic:
+                  - generic [ref=e54]:
+                    - generic [ref=e55]: service
+                    - text: Request No
+                  - generic [ref=e56]: SR-644736
+              - generic [ref=e57]:
+                - generic:
+                  - generic [ref=e58]: Customer Entity
+                  - generic [ref=e59]: Karthik
+              - generic [ref=e60]:
+                - generic:
+                  - generic [ref=e61]: Request Creation Date
+                  - generic [ref=e62]: 25/09/2025 12:49 PM
+              - generic [ref=e63]:
+                - generic:
+                  - generic [ref=e64]: Location
+                  - generic [ref=e65]: Mumbai
+          - generic [ref=e68]:
+            - generic:
+              - generic [ref=e69]:
+                - generic:
+                  - generic [ref=e70]: CRM Ticket Number
+                  - generic [ref=e71]: CTN00DS03
+              - generic [ref=e72]:
+                - generic:
+                  - generic [ref=e73]:
+                    - generic [ref=e74]: service
+                    - text: Request No
+                  - generic [ref=e75]: SR-71045
+              - generic [ref=e76]:
+                - generic:
+                  - generic [ref=e77]: Customer Entity
+                  - generic [ref=e78]: Karthik
+              - generic [ref=e79]:
+                - generic:
+                  - generic [ref=e80]: Request Creation Date
+                  - generic [ref=e81]: 25/09/2025 12:22 PM
+              - generic [ref=e82]:
+                - generic:
+                  - generic [ref=e83]: Location
+                  - generic [ref=e84]: Mumbai
+          - generic [ref=e87]:
+            - generic:
+              - generic [ref=e88]:
+                - generic:
+                  - generic [ref=e89]: CRM Ticket Number
+                  - generic [ref=e90]: CTN00DW77
+              - generic [ref=e91]:
+                - generic:
+                  - generic [ref=e92]:
+                    - generic [ref=e93]: service
+                    - text: Request No
+                  - generic [ref=e94]: SR-856877
+              - generic [ref=e95]:
+                - generic:
+                  - generic [ref=e96]: Customer Entity
+                  - generic [ref=e97]: Karthik
+              - generic [ref=e98]:
+                - generic:
+                  - generic [ref=e99]: Request Creation Date
+                  - generic [ref=e100]: 25/09/2025 11:46 AM
+              - generic [ref=e101]:
+                - generic:
+                  - generic [ref=e102]: Location
+                  - generic [ref=e103]: Mumbai
+          - generic [ref=e106]:
+            - generic:
+              - generic [ref=e107]:
+                - generic:
+                  - generic [ref=e108]: CRM Ticket Number
+                  - generic [ref=e109]: CTN00DW76
+              - generic [ref=e110]:
+                - generic:
+                  - generic [ref=e111]:
+                    - generic [ref=e112]: service
+                    - text: Request No
+                  - generic [ref=e113]: SR-642176
+              - generic [ref=e114]:
+                - generic:
+                  - generic [ref=e115]: Customer Entity
+                  - generic [ref=e116]: Karthik
+              - generic [ref=e117]:
+                - generic:
+                  - generic [ref=e118]: Request Creation Date
+                  - generic [ref=e119]: 25/09/2025 11:43 AM
+              - generic [ref=e120]:
+                - generic:
+                  - generic [ref=e121]: Location
+                  - generic [ref=e122]: Mumbai
+          - generic [ref=e125]:
+            - generic:
+              - generic [ref=e126]:
+                - generic:
+                  - generic [ref=e127]: CRM Ticket Number
+                  - generic [ref=e128]: CTN00DW75
+              - generic [ref=e129]:
+                - generic:
+                  - generic [ref=e130]:
+                    - generic [ref=e131]: service
+                    - text: Request No
+                  - generic [ref=e132]: SR-58342
+              - generic [ref=e133]:
+                - generic:
+                  - generic [ref=e134]: Customer Entity
+                  - generic [ref=e135]: Karthik
+              - generic [ref=e136]:
+                - generic:
+                  - generic [ref=e137]: Request Creation Date
+                  - generic [ref=e138]: 25/09/2025 11:37 AM
+              - generic [ref=e139]:
+                - generic:
+                  - generic [ref=e140]: Location
+                  - generic [ref=e141]: Mumbai
+          - generic [ref=e144]:
+            - generic:
+              - generic [ref=e145]:
+                - generic:
+                  - generic [ref=e146]: CRM Ticket Number
+                  - generic [ref=e147]: CTN00DW74
+              - generic [ref=e148]:
+                - generic:
+                  - generic [ref=e149]:
+                    - generic [ref=e150]: service
+                    - text: Request No
+                  - generic [ref=e151]: SR-201359
+              - generic [ref=e152]:
+                - generic:
+                  - generic [ref=e153]: Customer Entity
+                  - generic [ref=e154]: Karthik
+              - generic [ref=e155]:
+                - generic:
+                  - generic [ref=e156]: Request Creation Date
+                  - generic [ref=e157]: 25/09/2025 11:32 AM
+              - generic [ref=e158]:
+                - generic:
+                  - generic [ref=e159]: Location
+                  - generic [ref=e160]: Mumbai
+          - generic [ref=e163]:
+            - generic:
+              - generic [ref=e164]:
+                - generic:
+                  - generic [ref=e165]: CRM Ticket Number
+                  - generic [ref=e166]: CTN00DW73
+              - generic [ref=e167]:
+                - generic:
+                  - generic [ref=e168]:
+                    - generic [ref=e169]: service
+                    - text: Request No
+                  - generic [ref=e170]: SR-903150
+              - generic [ref=e171]:
+                - generic:
+                  - generic [ref=e172]: Customer Entity
+                  - generic [ref=e173]: Karthik
+              - generic [ref=e174]:
+                - generic:
+                  - generic [ref=e175]: Request Creation Date
+                  - generic [ref=e176]: 25/09/2025 11:26 AM
+              - generic [ref=e177]:
+                - generic:
+                  - generic [ref=e178]: Location
+                  - generic [ref=e179]: Mumbai
+          - generic [ref=e182]:
+            - generic:
+              - generic [ref=e183]:
+                - generic:
+                  - generic [ref=e184]: CRM Ticket Number
+                  - generic [ref=e185]: CTN00DW120
+              - generic [ref=e186]:
+                - generic:
+                  - generic [ref=e187]:
+                    - generic [ref=e188]: service
+                    - text: Request No
+                  - generic [ref=e189]: SR-565586
+              - generic [ref=e190]:
+                - generic:
+                  - generic [ref=e191]: Customer Entity
+                  - generic [ref=e192]: KARAN
+              - generic [ref=e193]:
+                - generic:
+                  - generic [ref=e194]: Request Creation Date
+                  - generic [ref=e195]: 24/09/2025 04:06 PM
+              - generic [ref=e196]:
+                - generic:
+                  - generic [ref=e197]: Location
+                  - generic [ref=e198]: Mumbai
+          - generic [ref=e201]:
+            - generic:
+              - generic [ref=e202]:
+                - generic:
+                  - generic [ref=e203]: CRM Ticket Number
+                  - generic [ref=e204]: CTN00DW92
+              - generic [ref=e205]:
+                - generic:
+                  - generic [ref=e206]:
+                    - generic [ref=e207]: service
+                    - text: Request No
+                  - generic [ref=e208]: SR-273092
+              - generic [ref=e209]:
+                - generic:
+                  - generic [ref=e210]: Customer Entity
+                  - generic [ref=e211]: KARAN
+              - generic [ref=e212]:
+                - generic:
+                  - generic [ref=e213]: Request Creation Date
+                  - generic [ref=e214]: 24/09/2025 04:01 PM
+              - generic [ref=e215]:
+                - generic:
+                  - generic [ref=e216]: Location
+                  - generic [ref=e217]: Mumbai
+          - generic [ref=e220]:
+            - generic:
+              - generic [ref=e221]:
+                - generic:
+                  - generic [ref=e222]: CRM Ticket Number
+                  - generic [ref=e223]: CTN00DW68
+              - generic [ref=e224]:
+                - generic:
+                  - generic [ref=e225]:
+                    - generic [ref=e226]: service
+                    - text: Request No
+                  - generic [ref=e227]: SR-65457
+              - generic [ref=e228]:
+                - generic:
+                  - generic [ref=e229]: Customer Entity
+                  - generic [ref=e230]: KARAN
+              - generic [ref=e231]:
+                - generic:
+                  - generic [ref=e232]: Request Creation Date
+                  - generic [ref=e233]: 23/09/2025 01:12 PM
+              - generic [ref=e234]:
+                - generic:
+                  - generic [ref=e235]: Location
+                  - generic [ref=e236]: Mumbai
+      - generic:
+        - button "Previous" [disabled]:
+          - generic:
+            - generic: Previous
+      - button "Next" [ref=e238] [cursor=pointer]:
+        - generic [ref=e239] [cursor=pointer]:
+          - generic: Next
+```

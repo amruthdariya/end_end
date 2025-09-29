@@ -1,0 +1,18 @@
+API Response: {
+  otp_verifications: [
+    {
+      id: 2181,
+      is_active: true,
+      verifier_type: 'return_creation',
+      contact_number: '8050455805',
+      details: [Object],
+      created_at: '2025-09-29T07:36:36.876Z',
+      updated_at: '2025-09-29T07:36:36.943Z',
+      email: null,
+      is_email: false
+    }
+  ]
+}
+Captured OTP: 7941
+Sub Request ID(s) rs-8e79b3 successfully created.
+---
